@@ -3,6 +3,9 @@ import { useState } from "react";
 
 export const Cloudinary = () => {
 
+    const preset_name = "EnTuBarrio";
+    const cloud_name = "dwybb4syq";
+
     const [ image, setImage ] = useState('');
     const [ loading, setLoading ] = useState(false) 
 
